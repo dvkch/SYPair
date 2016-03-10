@@ -1,6 +1,6 @@
 //
 //  SYPair.h
-//  Wild
+//  SYPair
 //
 //  Created by Stan Chevallier on 10/01/2016.
 //  Copyright © 2016 Syan. All rights reserved.
