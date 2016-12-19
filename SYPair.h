@@ -17,3 +17,13 @@
 - (ObjectType2)object2;
 
 @end
+
+@interface SYNullablePair <ObjectType1, ObjectType2> : NSObject
+
++ (instancetype)pairWithObject:(ObjectType1)object1 andObject:(ObjectType2)object2;
+- (instancetype)initWithObject:(ObjectType1)object1 andObject:(ObjectType2)object2 NS_DESIGNATED_INITIALIZER;
+
+- (ObjectType1)object1;
+- (ObjectType2)object2;
+
+@end
