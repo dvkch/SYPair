@@ -62,9 +62,6 @@
 
 - (instancetype)initWithObject:(id)object1 andObject:(id)object2
 {
-    NSAssert(object1 != nil, @"Objects cannot be nil");
-    NSAssert(object2 != nil, @"Objects cannot be nil");
-    
     self = [super init];
     if (self)
     {
